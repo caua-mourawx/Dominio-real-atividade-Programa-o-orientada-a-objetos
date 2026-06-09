@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-require_once 'ProdutoInterface.php';
-require_once 'Produto.php';
-require_once 'ProdutoPerecivel.php';
-require_once 'Fornecedor.php';
-require_once 'Estoque.php';
+require_once 'interfaces/ProdutoInterface.php';
+require_once 'classes/Produto.php';
+require_once 'classes/ProdutoPerecivel.php';
+require_once 'classes/Fornecedor.php';
+require_once 'classes/Estoque.php';
 
 $fornecedor = new Fornecedor("Mercado Central");
 
