@@ -5,12 +5,12 @@ require_once "Produto.php";
 require_once "Estoque.php";
 require_once "Caixa.php";
 
-// Criando produtos
+
 $produto1 = new Produto("Arroz 5kg", 29.90, 20);
 $produto2 = new Produto("Feijão 1kg", 8.50, 35);
 $produto3 = new Produto("Macarrão", 4.99, 50);
 
-// Criando estoque
+
 $estoque = new Estoque();
 
 $estoque->adicionarProduto($produto1);
@@ -22,7 +22,7 @@ $estoque->listarProdutos();
 
 echo "<hr>";
 
-// Criando caixa
+
 $caixa = new Caixa();
 
 echo "<h2>Venda Realizada</h2>";
